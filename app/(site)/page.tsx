@@ -12,6 +12,8 @@ import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
+import ChatBox from "@/components/AI/ChatBox";
+
 
 export const metadata: Metadata = {
   title: "MLN-131",
@@ -19,6 +21,7 @@ export const metadata: Metadata = {
   // other metadata
   description: ""
 };
+
 
 export default function Home() {
   return (
@@ -34,6 +37,7 @@ export default function Home() {
       <FAQ />
 
       <Pricing />
+      <ChatBox />
 
 
     </main>

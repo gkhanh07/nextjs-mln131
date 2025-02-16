@@ -1,18 +1,18 @@
 import { Menu } from "@/types/menu";
 
 const menuData: Menu[] = [
-    {
-        id: 1,
-        title: "Trang chủ",
-        newTab: false,
-        path: "/",
-    },
-    {
-        id: 2,
-        title: "Hỏi AI",
-        newTab: false,
-        path: "/#features",
-    },
+    // {
+    //     id: 1,
+    //     title: "Trang chủ",
+    //     newTab: false,
+    //     path: "/",
+    // },
+    // {
+    //     id: 2,
+    //     title: "Hỏi AI",
+    //     newTab: false,
+    //     path: "/#features",
+    // },
     // {
     //     id: 2.1,
     //     title: "Blog",
