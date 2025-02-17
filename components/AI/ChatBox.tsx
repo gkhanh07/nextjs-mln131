@@ -20,9 +20,6 @@ const ChatBox = () => {
     const genAI = new GoogleGenerativeAI("AIzaSyB3v0Eus3IMmB36kopqYZSfOVV706PCQRI");
     const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
-
-
-
     useEffect(() => {
         if (messages.length > 0) {
             messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -67,6 +64,11 @@ const ChatBox = () => {
 
     return (
         <div className="flex flex-col w-1/2 h-1/2 bg-white shadow-lg rounded-lg overflow-hidden mx-auto mt-10">
+            {/* Tiêu đề "Hỏi cũng AI" */}
+            <div className="bg-white-500 text-black text-center py-2 text-lg font-semibold">
+                Chat with AI
+            </div>
+
             <div className="flex-1 overflow-y-auto p-3 space-y-2">
                 {messages.map((message) => (
                     <div

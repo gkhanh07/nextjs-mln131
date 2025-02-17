@@ -35,11 +35,12 @@ export default function Home() {
 
 
       <FAQ />
-
+      <Testimonial />
       <Pricing />
+
+
+      <Testimonial />
       <ChatBox />
-
-
     </main>
   );
 }

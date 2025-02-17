@@ -1,6 +1,4 @@
 "use client";
-import SectionHeader from "../Common/SectionHeader";
-
 import { Autoplay, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -16,17 +14,21 @@ const Testimonial = () => {
     <>
       <section>
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
-          {/* <!-- Section Title Start --> */}
+          {/* Header Info */}
           <div className="animate_top mx-auto text-center">
-            <SectionHeader
-              headerInfo={{
-                title: `TESTIMONIALS`,
-                subtitle: `Client’s Testimonials`,
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
-              }}
-            />
+            <div className="mb-4 inline-block rounded-full bg-zumthor px-4.5 py-1.5 dark:border dark:border-strokedark dark:bg-blacksection">
+              <span className="text-sectiontitle font-medium text-black dark:text-white">
+                Câu hỏi CQ
+              </span>
+            </div>
+            <h2 className="text-black text-2xl font-extrabold">
+              Việt Nam lấy Chủ nghĩa Mác - Lênin nền tảng tư tưởng, đây là chủ nghĩa duy vật biện chứng, vậy có phải là sẽ xóa bỏ hoàn toàn tôn giáo hay không?
+            </h2>
+
+            <p className="mx-auto md:w-4/5 lg:w-3/5 xl:w-[46%]">
+
+            </p>
           </div>
-          {/* <!-- Section Title End --> */}
         </div>
 
         <motion.div
@@ -35,7 +37,6 @@ const Testimonial = () => {
               opacity: 0,
               y: -20,
             },
-
             visible: {
               opacity: 1,
               y: 0,
