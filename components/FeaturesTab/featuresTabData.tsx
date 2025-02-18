@@ -9,9 +9,8 @@ const featuresTabData: FeatureTab[] = [
 chiến tranh tôn giáo
 `,
     desc3: `Tín đồ các tôn giáo VN phần lớn là nhân dân lao động, có lòng yêu nước, tinh
-thần dân tộc
-
-`,
+thần dân tộc,`,
+    desc4: `Các tôn giáo ở Việt Nam đều có quan hệ với các tổ chức, cá nhân tôn giáo ở nước ngoài`,
     image: "/images/features/ton-giao.png",
     imageDark: "/images/features/ton-giao.png",
   },
@@ -25,6 +24,7 @@ tồn tại cùng dân tộc trong quá trình xây dựng CNXH ở nước ta
 `,
     desc3: ` Nội dung cốt lõi của công tác tôn giáo là công tác vận động quần chúng
 `,
+    desc4: ``,
     image: "/images/features/ton-giao.png",
     imageDark: "/images/features/ton-giao.pngg",
   },

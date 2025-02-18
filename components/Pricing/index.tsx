@@ -12,7 +12,7 @@ const Pricing = () => {
             headerInfo={{
               title: ``,
               subtitle: `Định hướng giải quyết mối quan hệ dân tộc và tôn giáo ở Việt Nam hiện nay`,
-              description: `Đảng Cộng sản Việt Nam yêu cầu “nghiêm trị những âm mưu, hành động chia rẽ, phá hoại khối đại đoàn kết dân tộc… Đồng thời chủ động phòng ngừa, kiên quyết đấu tranh với những hành vi lợi dụng tín ngưỡng, tôn giáo để chia rẽ, phá hoại khối đại đoàn kết dân tộc haocjw những hoạt động tín ngưỡng, tôn giáo trái quy định của pháp luật”.`,
+              description: `Đảng Cộng sản Việt Nam yêu cầu “nghiêm trị những âm mưu, hành động chia rẽ, phá hoại khối đại đoàn kết dân tộc… Đồng thời chủ động phòng ngừa, kiên quyết đấu tranh với những hành vi lợi dụng tín ngưỡng, tôn giáo để chia rẽ, phá hoại khối đại đoàn kết dân tộc hoặc những hoạt động tín ngưỡng, tôn giáo trái quy định của pháp luật”.`,
             }}
           />
         </div>
@@ -83,7 +83,7 @@ const PricingCard = ({ title, shortContent, fullContent }) => {
           {shortContent.map((text, index) => (
             <li
               key={index}
-              className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee"
+              className="mb-4 text-black opacity-70 last:mb-0 dark:text-manatee"
             >
               {text}
             </li>
@@ -93,7 +93,7 @@ const PricingCard = ({ title, shortContent, fullContent }) => {
             fullContent.map((text, index) => (
               <li
                 key={index}
-                className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee"
+                className="mb-4 text-black opacity-70 last:mb-0 dark:text-manatee"
               >
                 {text}
               </li>

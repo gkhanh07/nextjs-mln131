@@ -3,7 +3,7 @@ import { FeatureTab } from "@/types/featureTab";
 import Image from "next/image";
 
 const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
-  const { title, desc1, desc2, desc3, image, imageDark } = featureTab;
+  const { title, desc1, desc2, desc3, desc4, image, imageDark } = featureTab;
 
   return (
     <>
@@ -15,6 +15,7 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
           <p className="mb-5 text-lg font-medium">{desc1}</p>
           <p className="mb-5 text-lg font-medium">{desc2}</p>
           <p className="mb-5 text-lg font-medium">{desc3}</p>
+          <p className="mb-5 text-lg font-medium">{desc4}</p>
 
 
         </div>
